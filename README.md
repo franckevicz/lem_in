@@ -1,5 +1,8 @@
 # lem_in
 
+The whole task are in [this pdf](https://github.com/franckevicz/lem_in/blob/master/lem-in.en.pdf).
+Here is just quick explanation.
+
 The goal of this project is to find the quickest way to get ants across the farm.
 
 Obviously, there are some basic constraints. To be the first to arrive, ants will need to take the shortest path (and that isn’t necessarily the simplest). They will also need to avoid traffic jams as well as walking all over their fellow ants.
@@ -9,9 +12,9 @@ At each turn you can move each ant only once and through a tube (the room at the
 
 Program will receive the data describing the ant farm from the standard output in the following format:
 
-￼number_of_ants
-the_rooms
-the_links
+￼-number_of_ants
+-the_rooms
+-the_links
 
 Here is an example of the farm
 ```
@@ -40,16 +43,16 @@ Here is an example of the farm
 6-5
 ```
 
-Where 1 23 3:
+Where `1 23 3`:
 
-1 - Name of room
-23 - It's X coord
-3 - It's Y coord
+`1` - Name of room
+`23` - It's X coord
+`3` - It's Y coord
 
-And 0-4
-It's a link between room with name "0" and "4"
+And `0-4`
+It's a link between room with name `0` and `4`
 
-The exapmle of how it should work
+The exapmle of how it should work:
 ```
 zaz@blackjack /tmp/lem-in $ ./lem-in < subjet2.map
 3
