@@ -18,9 +18,11 @@ Program will receive the data describing the ant farm from the standard output i
 
 Here is an example of the farm
 ```
+5
 ##start
 1 23 3
-2 16 7 #comment
+2 16 7
+#comment
 3 16 3
 4 16 5
 5 9 3
