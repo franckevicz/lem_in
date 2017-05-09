@@ -79,3 +79,11 @@ Where: `L1-3`:
 `L` - lem(ant)
 `1` - number of ant
 `3` - name of room where it move
+
+
+Example of usage:
+
+```
+make
+./lem_in < maps/map_large
+```
