@@ -12,9 +12,9 @@ At each turn you can move each ant only once and through a tube (the room at the
 
 Program will receive the data describing the ant farm from the standard output in the following format:
 
-...number_of_ants
-...the_rooms
-...the_links
+   number_of_ants
+   the_rooms
+   the_links
 
 Here is an example of the farm
 ```
