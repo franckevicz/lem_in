@@ -1,6 +1,6 @@
 # lem_in
 
-The whole task are in [this pdf](https://github.com/franckevicz/lem_in/blob/master/lem-in.en.pdf).
+The whole task is in [this pdf](https://github.com/franckevicz/lem_in/blob/master/lem-in.en.pdf). It's not described very clear as long as it's a part of the task.
 Here is just quick explanation.
 
 The goal of this project is to find the quickest way to get ants across the farm.
