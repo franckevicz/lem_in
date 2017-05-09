@@ -72,7 +72,7 @@ L1-3 L2-2
 L1-1 L2-1 L3-3
 L3-1
 ```
-Where: L1-3
-L - lem(ant)
-1 - number of ant
-3 - name of room where it move
+Where: `L1-3`
+`L` - lem(ant)
+`1` - number of ant
+`3` - name of room where it move
