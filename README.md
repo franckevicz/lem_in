@@ -47,13 +47,23 @@ It's a link between room with name "0" and "4"
 The exapmle of how it should work
 zaz@blackjack /tmp/lem-in $ ./lem-in < subjet2.map
 3
-250 ##start
-012 ##end
-192 354
-0-2 0-3
-2-1 3-1
+2 5 0 
+##start
+0 1 2 
+##end
+1 9 2 
+3 5 4
+0-2
+0-3
+2-1
+3-1
 2-3
 
 L1-3 L2-2
 L1-1 L2-1 L3-3
 L3-1
+
+Where: L1-3
+L - lem(ant)
+1 - number of ant
+3 - name of room where it move
