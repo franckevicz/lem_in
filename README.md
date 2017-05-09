@@ -11,7 +11,8 @@ Program will receive the data describing the ant farm from the standard output i
 the_rooms
 the_links
 
-Here is an example of the farm 
+Here is an example of the farm
+```
 ##start
 1 23 3
 2 16 7 #comment
@@ -35,8 +36,10 @@ Here is an example of the farm
 7-2
 7-4
 6-5
+```
 
 Where 1 23 3:
+
 1 - Name of room
 23 - It's X coord
 3 - It's Y coord
@@ -45,6 +48,7 @@ And 0-4
 It's a link between room with name "0" and "4"
 
 The exapmle of how it should work
+```
 zaz@blackjack /tmp/lem-in $ ./lem-in < subjet2.map
 3
 2 5 0 
@@ -62,7 +66,7 @@ zaz@blackjack /tmp/lem-in $ ./lem-in < subjet2.map
 L1-3 L2-2
 L1-1 L2-1 L3-3
 L3-1
-
+```
 Where: L1-3
 L - lem(ant)
 1 - number of ant
